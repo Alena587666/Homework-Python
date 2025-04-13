@@ -17,6 +17,5 @@ class CalcPage:
         button.click()
 
     def get_result(self):
-        result_element = WebDriverWait(driver,45).until(EC.text_to_be_present_in_element((By.CLASS_NAME,"result"))
-
-
+        result_element = WebDriverWait(driver,45).until(EC.text_to_be_present_in_element(
+            (By.CLASS_NAME,"result"))
