@@ -1,7 +1,7 @@
 import requests
 
-KEY= "hM48o1oTNFMWhfUxZ+616QNqSRm-obt30bAnkUZtz+ulCxe+xHEG0CIjX1BLxo1y"
-headers= {'Authorization': f'Bearer {KEY}','Content-Type': 'application/json'}
+KEY = "hM48o1oTNFMWhfUxZ+616QNqSRm-obt30bAnkUZtz+ulCxe+xHEG0CIjX1BLxo1y"
+headers = {'Authorization': f'Bearer {KEY}','Content-Type': 'application/json'}
 
 def test_create_project():
     body= {
